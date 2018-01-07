@@ -1,0 +1,44 @@
+---
+title: "Beheraj, Kavya - Week 1 Quiz"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Create a vector that contains 20 numbers.
+```{r}
+
+x <- as.numeric(c(31, 13, 19, 25, 6, 20, 5, 14, 44, 7, 26, 38, 25, 37, 20, 30, 14, 35, 5))
+
+```
+
+
+## 2. Use R to convert the vector from question 1 into a character vector.
+```{r}
+
+y <- as.character(x)
+print(y)
+
+```
+
+
+3. Use R to convert the vector from question 1 into a vector of factors.
+```{r}
+
+f <- factor(x)
+print(f)
+
+```
+
+
+4. Use R to show how many levels the vector in the previous question has.
+```{r}
+
+l <- levels(f)
+print(l)
+
+```
+The vector f has 15 levels.
+
